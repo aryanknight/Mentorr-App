@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+.home{
+  min-width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+  min-height: 400vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.home-screen{
+  min-width: 100%;
   min-height: 100vh;
+  background: rgba( 0, 0, 0, 0.60 );
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  overflow: hidden;
+}
+
+.section-1{
+  flex: 1;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color:white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.button-cont{
+  width:33rem;
+  padding:0.5rem;
+  margin-top:20px;
+  position:relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#intro-text-1{
+  font-size: 48px;
+  font-family: 'Merienda', cursive;
+  max-width: 33rem;
+  color:rgb(15, 211, 136);
+  padding: 0.5rem;
+}
+
+#intro-text-2{
+  max-width: 33rem;
+  font-size: 22px;
+  margin-top: 20px;
+  color:rgb(194, 193, 192);
+  padding: 0.5rem;
+}
+
+.section-2{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#circle{
+  position: absolute;
+  top:0;
+  left:400px;
+}
+
+#help-button{
+  width:15rem;
+  font-size: 22px;
+  padding:1rem;
+  font-family: 'Merienda', cursive;
+  border-radius: 20px;
+  border:none;
+  color:white;
+  box-shadow: 0px 10px 50px -13px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	cursor:pointer;
+}
+
+
+
+@media (max-width:600px){
+
+  .home-screen{
+    min-height: 70vh;
   }
-  to {
-    transform: rotate(360deg);
+
+  .section-1{
+    align-items: start;
+    max-width: 100%;
+    padding-left: 1rem;
+    max-height: 80vh;
+  }
+
+  .section-2{
+    display: none;
+  }
+
+  .button-cont{
+    max-width: 15rem;
+    max-height: 20rem;
+  }
+
+  #intro-text-1{
+    font-size: 22px;
+    font-family: 'Merienda', cursive;
+    max-width: 15rem;
+  }
+  
+  #intro-text-2{
+    max-width: 15rem;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  #help-button{
+    width:8rem;
+    font-size: 12px;
+  }
+
+  #circle{
+    display: none;
   }
 }
