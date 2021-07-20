@@ -1,0 +1,41 @@
+.card-container{
+    display: flex;
+    max-width:100%;
+    justify-content:center;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    max-width: 100%;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-head{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 56px;
+}
+
+.card-text{
+    color:rgb(221, 221, 221);
+    max-width: 16rem;
+    padding: 0.5rem;
+}
+
+@media(max-width:800px){
+    .card{
+        padding:1rem;
+        min-width: 80%;
+        justify-content: start;
+    }
+
+    .card-head{
+        min-width: 10rem;
+    }
+}

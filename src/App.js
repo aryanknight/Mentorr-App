@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import NavBar from './Components/NavBar/NavBar.jsx';
 import MiddleSection from './Components/MiddleSection/MiddleSection.jsx';
+import Cards from './Components/Cards/Cards.jsx';
 import './App.css';
 import Grp11 from './Images/grp11.png';
 import Grp22 from './Images/grp22.png';
@@ -32,12 +33,19 @@ function App() {
           </div>
         </div>
         <div className="section-2">
-          <img src={Grp22} />
+          <img src={Grp22} id='main-img' />
         </div>
       </div>
 
       
       <MiddleSection />
+      
+      <div style={{display:'flex',justifyContent:'center',marginTop:'40px'}} >
+        <div style={{width:'85%',backgroundColor:'rgb(189, 189, 189)',height:'4px',borderRadius:'2px'}} >
+        </div>
+      </div>
+
+      <Cards />
       
     </div>
   );

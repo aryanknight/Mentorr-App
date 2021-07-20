@@ -1,6 +1,6 @@
 .middle-section{
     display: flex;
-    max-height: 100vh;
+    min-height: 100vh;
     width: 100%;
 }
 
@@ -57,7 +57,7 @@
     }
 
     .middle-section-1{
-        min-width: 15rem;
+        min-width: 20rem;
         
     }
 

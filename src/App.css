@@ -72,11 +72,18 @@
 }
 
 
+@media (max-width:1000px){
+  
+  #main-img{
+    width: 100%;
+  }
+
+}
 
 @media (max-width:600px){
 
   .home-screen{
-    min-height: 70vh;
+    min-height: 80vh;
   }
 
   .section-1{
@@ -96,7 +103,7 @@
   }
 
   #intro-text-1{
-    font-size: 22px;
+    font-size: 28px;
     font-family: 'Merienda', cursive;
     max-width: 15rem;
   }
