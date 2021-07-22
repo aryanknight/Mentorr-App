@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import NavBar from './Components/NavBar/NavBar.jsx';
 import MiddleSection from './Components/MiddleSection/MiddleSection.jsx';
+import Slider from './Components/Slider/Slider.jsx';
 import Cards from './Components/Cards/Cards.jsx';
 import './App.css';
 import Grp11 from './Images/grp11.png';
@@ -40,12 +41,22 @@ function App() {
       
       <MiddleSection />
       
+      <Cards />
+
       <div style={{display:'flex',justifyContent:'center',marginTop:'40px'}} >
         <div style={{width:'85%',backgroundColor:'rgb(189, 189, 189)',height:'4px',borderRadius:'2px'}} >
         </div>
       </div>
 
-      <Cards />
+      
+      <div data-aos='slide-right'>
+        <div id='featured'>
+          Featured Mentors
+        </div>
+        
+        <Slider />
+      </div>
+      
       
     </div>
   );
