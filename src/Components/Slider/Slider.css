@@ -13,8 +13,8 @@
 }
 
 .slide-img-cont{
-    width:200px;
-    height:300px;
+    width:350px;
+    height:500px;
     display: flex;
     position: relative;
     overflow: hidden;
@@ -66,8 +66,13 @@
     
     .img-sec{
         min-width: 15rem;
-        justify-content: start;
+        justify-content: center;
     }
+
+    .slide-img-cont{
+        width:200px;
+        height:300px;
+    }    
 
     .text-sec{
         min-width: 15rem;
@@ -77,21 +82,24 @@
 
     .text-1{
         font-size: 32px;
+        text-align: center;
     }
 
     .text-2{
         font-size: 20px;
+        text-align: center;
     }
 
     .text-3{
         font-size: 16px;
         margin-top: 20px;
-        font-weight: lighter;
         font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        max-width: 100%;
     }
 
     #random{
-        justify-content: start;
         min-height: 35vh;
+        justify-content: center;
     }
 }
