@@ -71,7 +71,7 @@
 	cursor:pointer;
 }
 
-#featured{
+.featured{
   color: white;
   margin-top: 50px;
   margin-left: 8%;
@@ -110,6 +110,7 @@
     max-height: 20rem;
   }
 
+  
   #intro-text-1{
     font-size: 28px;
     font-family: 'Merienda', cursive;
@@ -131,7 +132,7 @@
     display: none;
   }
 
-  #featured{
+  .featured{
     text-align: center;
     margin-left: 0px;
   }

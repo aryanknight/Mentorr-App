@@ -1,10 +1,6 @@
 import React , {useState} from 'react';
 import './MiddleSection.css';
-import Slide from '@material-ui/core/Slide';
-import Grow from '@material-ui/core/Grow';
 import Grp28 from '../../Images/grp29.png';
-import Grp30 from '../../Images/grp30.png';
-
 
 export default function MiddleSection() {
     const [checked,setC]=useState(true);

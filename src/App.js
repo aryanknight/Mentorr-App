@@ -3,6 +3,7 @@ import NavBar from './Components/NavBar/NavBar.jsx';
 import MiddleSection from './Components/MiddleSection/MiddleSection.jsx';
 import Slider from './Components/Slider/Slider.jsx';
 import Cards from './Components/Cards/Cards.jsx';
+import Courses from './Components/Courses/Courses.jsx';
 import './App.css';
 import Grp11 from './Images/grp11.png';
 import Grp22 from './Images/grp22.png';
@@ -50,14 +51,20 @@ function App() {
 
       
       <div data-aos='slide-right'>
-        <div id='featured'>
+        <div className='featured'>
           Featured Mentors
         </div>
         
         <Slider />
       </div>
       
-      
+      <div data-aos='slide-left'>
+        <div className='featured'>
+          Top Courses
+        </div>
+        <Courses/>
+      </div>
+
     </div>
   );
 }
