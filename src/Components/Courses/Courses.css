@@ -1,9 +1,7 @@
 .courses{
     margin-top:20px;
-
     display: flex;
     color: #343434;
-    
     flex-wrap: wrap;
     margin-left: 8%;
     max-width: 80%;
@@ -11,6 +9,8 @@
 
 .courses-card-cont{
     width:25%;
+    transform-style: preserve-3d;
+    position: relative;
 }
 
 .courses-card{

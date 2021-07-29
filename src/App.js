@@ -4,6 +4,7 @@ import MiddleSection from './Components/MiddleSection/MiddleSection.jsx';
 import Slider from './Components/Slider/Slider.jsx';
 import Cards from './Components/Cards/Cards.jsx';
 import Courses from './Components/Courses/Courses.jsx';
+import EndSection from './Components/EndSection/EndSection.jsx';
 import './App.css';
 import Grp11 from './Images/grp11.png';
 import Grp22 from './Images/grp22.png';
@@ -63,6 +64,10 @@ function App() {
           Top Courses
         </div>
         <Courses/>
+      </div>
+
+      <div data-aos='slide-right'>
+        <EndSection />
       </div>
 
     </div>
